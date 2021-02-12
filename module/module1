@@ -1,2 +1,12 @@
-#plab
-#module
+def area_cuboid(l,b,h):
+    return 2*(l*h + b*h + l*b)
+
+def perimeter_cuboid(l,b,h):
+    return 4*(l+b+h)
+    from math import pi
+
+def area_sphere(radius):
+    return 4*(pi*radius*radius)
+
+def perimeter_sphere(radius):
+    return 2*pi*radius
